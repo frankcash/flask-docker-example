@@ -1,0 +1,7 @@
+version: '2'
+services:
+  service:
+    container_name: flask-sample-one
+    image: flask-sample-one:latest
+    ports:
+      - "5000:5000"
